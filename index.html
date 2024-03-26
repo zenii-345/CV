@@ -1,0 +1,351 @@
+<!doctype html>
+<html>
+<head>
+	<title>CV</title>
+</head>
+<style type="text/css">
+	.{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: sans-serif;
+	}
+	.body{
+		background-color: lightslategrey;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+	}
+	.container{
+		position: relative;
+		width: 100%;
+		max-width: 1000px;
+		min-height: 1000px;
+		background: #fff;
+		margin: 50px;
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		box-shadow: 0 35px 55px rgba(0, 0, 0, 0.2);
+	}
+	.container .left{
+		position: relative;
+		background: #167266;
+		padding: 50px;
+	
+	}
+	.profiletext{
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 20px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+	}
+	.profiletext .profileImg{
+		position: relative;
+		width: 200px;
+		height: 200px;
+		border-radius:50%;
+		overflow: hidden;
+	}
+	.profiletext profileImg img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.profiletext h2{
+		color: #fff;
+		font-size: 1.5em;
+		margin-top: 20px;
+		text-transform: uppercase;
+		text-align: center;
+		font-weight: 600;
+		right: 80%;
+		line-height: 1.4em;
+	}
+	.profiletext h2 span{
+		font-size: 0.7em;
+		font-weight: 300;
+	}
+	.Info{
+		padding: 40px;
+	}
+	.title{
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 600;
+		letter-spacing: 0.4px;
+		margin-bottom: 20px;
+	}
+	.Info ul{
+		position: relative;
+
+
+	}
+	.Info ul li{
+		position: relative;
+		list-style: none;
+		margin: 10px 0;
+		cursor:pointer;
+
+	}
+	.profileImg{
+		width: 600px;
+	}
+	.Info ul li .icon{
+		display: inline-block;
+		width: 20px;
+		font-size: 20px;
+		color: #fff;
+	}
+	.Info ul li span{
+		color: #fff;
+		font-weight: 200;
+
+	}
+	.Info .education li{
+		margin-bottom: 15px;
+	}
+	 .education h5{
+		color: white;
+		font-weight: 500;
+	}
+	.education h4:nth-child(2){
+		color: #fff;
+		font-weight: 500;
+	}
+	.education h4{
+		color:#fff;
+		font-weight: 300;
+	}
+	.container .right{
+		position: relative;
+		background: #fff;
+		padding: 40px;
+	}
+	.bout{
+		margin-bottom: 50px;
+
+	}
+	.about:last-child{
+		margin-bottom: 0;
+
+	} 
+	.title2{
+		color: #167266;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+	p{
+		color: #333;
+	}
+	.bout .box{
+		display: flex;
+		flex-direction: row;
+		margin: 20px 0;
+
+	}
+	.about .box .yearcompany{
+		min-width: 150px;
+	}
+	.about .box .yearcompany{
+		text-transform: uppercase;
+		color: #848c90;
+		font-weight: 800;
+	}
+	.about .box .Projects{
+		min-width: 150px;
+	}
+	.about .box .Projects{
+		text-transform: uppercase;
+		color: #848c90;
+		font-weight: 600;
+	}
+	.about .box .text h4{
+		text-transform: uppercase;
+		color: black;
+		font-size: 15px;
+
+
+	}
+	.skills .box{
+		position: relative;
+		width: 100%;
+		display: grid;
+		grid-template-columns: 150px 1fr;
+		justify-content: center;
+		align-items: center;
+	}
+	.skills .box h4{
+		text-transform: uppercase;
+		color: #848c90;
+		font-weight: 500;
+	}
+	
+	.interest  .title2 ul li{
+		list-style: none;
+		color: #333;
+		font-weight: 500;
+		justify-content: center;
+		align-items: center;
+	}
+</style>
+<body>
+	<div class=" container">
+		<div class="left">
+			<div class="profiletext">
+				<div class="profileImg">
+					<img src="image.jpg">
+				</div>
+				<h2>Zainab Akram <br> <span>University Student</span></h2>
+			</div>
+			<div class="Info">
+				<h3 class="title">contact Info</h3>
+
+				<ul>
+					<li>
+						<span class="icon"><ion-icon name="call-outline"></ion-icon></span>
+						<span class="text">03208523492</span>
+					</li>
+
+					<li>
+						<span class="icon"><ion-icon name="mail-open-outline"></ion-icon></span>
+						<span class="text">zainabakram688@gmail.com</span>
+					</li>
+					
+					<li>
+						<span class="icon"><ion-icon name="location-outline"></ion-icon></span>
+						<span class="text">Sialkot,Pakistan</span>
+					</li>
+					<li>
+						<span class="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+						<span class="text">instagaram.com/zenii_345</span>
+					</li>
+				</ul>
+			</div>
+			<div class="Info education">
+				<h3 class="title">Education</h3>
+				<ul>
+					<li>
+						<h5>2021 - present </h5>
+						<h4>BS in COMPUTER SCIENCE</h4>
+						<h4>University of Sialkot</h4>
+					</li>
+					<li>
+						<h5>2019 - 2021</h5>
+						<h4>Intermediate in ICS</h4>
+						<h4>Government Girls Higher Secondary School</h4>
+					</li>
+				</ul>
+			</div>
+			<div class="Info language">
+				<h3 class="title">languages</h3>
+				<ul>
+					<li>
+						<span class="text">ENGLISH</span>
+						
+					</li>
+					<li>
+						<span class="text">URDU</span>
+						
+					</li>
+				</ul>
+				
+			</div>
+
+		</div>
+		<div class="right">
+			<div class="about">
+				<h2 class="title2">Certificates</h2>
+				<p> Microsoft Office Word 2016 <br> <br>Microsoft Office PowerPoint 2016 <br> <br> Microsoft Office Excel 2016 </p>
+			</div>
+			<div class="about">
+				<h2 class="title2"> Personal Projects</h2>
+				<div class="box">
+					<div class="Projects">
+						<h5>2023 - persent</h5>
+						<h5>University of Sialkot</h5>
+					</div>
+					<div class="text">
+						<h4>ATM Management System Project</h4>
+						<p>Build ATM Management System Project using C# and also using database that can saves all ATM data in SQL management studio (database)</p>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="Projects">
+						<h5>2021  - present</h5>
+						<h5>University of Sialkot</h5>
+					</div>
+					<div class="text">
+						<h4>Restaurant Management System</h4>
+						<p>Build Restaurant Management System Project in object oriented programming using C++</p>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="year-company">
+						<h5>------------------------------------------------------------------------------------------------------------------</h5>
+					</div>
+
+				
+					<div class="text">
+						<h2 class="title2"> Work Experience</h2>
+						<p>I have not any direct experience in any company or workplace. I am Fast learner, and I am confident that I could manage my work successfully and exceed your expectations.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="about skills">
+				<h2 class="title2">Professional Skills</h2>
+				<div class="box">
+					<h4>
+						MS Word
+					</h4>
+				</div>
+
+				<div class="box">
+					<h4>
+						MS Excel
+					</h4>
+				</div>
+
+				<div class="box">
+					<h4>
+						MS Powerpoint
+					</h4>
+				</div>
+
+				<div class="box">
+					<h4>
+						C++
+					</h4>
+				</div>
+
+				<div class="box">
+					<h4>
+						C#
+					</h4>
+				</div>
+			</div>
+
+			<div class="about interest">
+			<h2 class="title2">interests</h2>
+			<ul>
+				<li>Web Development</li>
+				<br>
+				<li>Graphic Designing</li>
+				
+			</ul>
+		</div>
+		
+	</div>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
